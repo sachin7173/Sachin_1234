@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-02T12:44:09 IST" name="Suite" finished-at="2023-05-02T12:44:48 IST" duration-ms="39832">
+    <groups>
+    </groups>
+    <test started-at="2023-05-02T12:44:09 IST" name="Test" finished-at="2023-05-02T12:44:48 IST" duration-ms="39832">
+      <class name="Test_Classes4.Test_Class1">
+        <test-method is-config="true" signature="openBrowser2()[pri:0, instance:Test_Classes4.Test_Class1@6973b51b]" started-at="2023-05-02T12:44:09 IST" name="openBrowser2" finished-at="2023-05-02T12:44:30 IST" duration-ms="21182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser2 -->
+        <test-method is-config="true" signature="login2()[pri:0, instance:Test_Classes4.Test_Class1@6973b51b]" started-at="2023-05-02T12:44:30 IST" name="login2" finished-at="2023-05-02T12:44:35 IST" duration-ms="5167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method signature="verifyusername2()[pri:0, instance:Test_Classes4.Test_Class1@6973b51b]" started-at="2023-05-02T12:44:35 IST" name="verifyusername2" finished-at="2023-05-02T12:44:36 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusername2 -->
+        <test-method is-config="true" signature="logout2(org.testng.ITestResult)[pri:0, instance:Test_Classes4.Test_Class1@6973b51b]" started-at="2023-05-02T12:44:36 IST" name="logout2" finished-at="2023-05-02T12:44:47 IST" duration-ms="10664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyusername2 status=SUCCESS method=Test_Class1.verifyusername2()[pri:0, instance:Test_Classes4.Test_Class1@6973b51b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test_Classes4.Test_Class1@6973b51b]" started-at="2023-05-02T12:44:47 IST" name="closeBrowser" finished-at="2023-05-02T12:44:48 IST" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test_Classes4.Test_Class1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
