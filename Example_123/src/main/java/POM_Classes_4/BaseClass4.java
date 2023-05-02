@@ -8,6 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseClass4 {
+	
+	
 public static WebDriver driver;
 public static void openBrowser() throws IOException, InterruptedException {
 	System.setProperty("webdriver.chrome.driver","C:\\automation\\Example_123\\src\\test\\resources\\Browsers\\chromedriver.exe");
